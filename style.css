@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#e81396 0%, #e61220 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 400;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 1.2;
+    font-weight: 300;
+
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: aquamarine;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.3 px;
+    font-family: 'Caveat', cursive;
+}
+
+.menu {
+
+
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    z-index: 10;
+    cursor: context-menu;
+    background: crimson;
+    width: 100%;
+}
+
+.links {
+    display: inline;
+    float: left;
+    color: #d9b3ff;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.article:hover {
+    background-color: deeppink;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#writing a{
+    text-shadow:null;
+    text-decoration: underline;
+    color: blueviolet;
+}
+#contacts{
+    background:firebrick;
+}
+#contacts iframe{
+    width:100%;
+}
+.conatact_1 h3{
+    display: inline;
+}
+a.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
